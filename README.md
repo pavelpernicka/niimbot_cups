@@ -58,13 +58,13 @@ Instead of `/dev/ttyACM0` choose device that appears.
 Bluetooth:
 
 ```bash
-printf 'ahoj\n' | lp -d NimbotB1-BT -o PageSize=w30h15
+printf 'hello\n' | lp -d NimbotB1-BT -o PageSize=w30h15
 ```
 
 USB:
 
 ```bash
-printf 'ahoj\n' | lp -d NimbotB1-USB -o PageSize=w30h15
+printf 'hello\n' | lp -d NimbotB1-USB -o PageSize=w30h15
 ```
 
 ## Debuging
