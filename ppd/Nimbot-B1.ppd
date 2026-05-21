@@ -1,0 +1,91 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "0.1"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "NIMBOTB1.PPD"
+*Manufacturer: "Nimbot"
+*Product: "(B1)"
+*ModelName: "Nimbot B1"
+*ShortNickName: "Nimbot B1"
+*NickName: "Nimbot B1 CUPS Driver"
+*cupsVersion: 2.4
+*cupsManualCopies: True
+*cupsFilter2: "application/pdf application/octet-stream 0 nimbot-render"
+*cupsFilter2: "image/png application/octet-stream 0 nimbot-render"
+*cupsFilter2: "image/jpeg application/octet-stream 0 nimbot-render"
+*cupsFilter2: "image/tiff application/octet-stream 0 nimbot-render"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*VariablePaperSize: True
+*HWMargins: 0 0 0 0
+*MaxMediaWidth: "141.73"
+*MaxMediaHeight: "566.93"
+*DefaultResolution: 203dpi
+*OpenUI *Resolution/Resolution: PickOne
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 dpi: "<</HWResolution[203 203]>>setpagedevice"
+*CloseUI: *Resolution
+*OpenUI *NimbotDensity/Print Density: PickOne
+*DefaultNimbotDensity: 3
+*NimbotDensity 1/1: ""
+*NimbotDensity 2/2: ""
+*NimbotDensity 3/3: ""
+*NimbotDensity 4/4: ""
+*NimbotDensity 5/5: ""
+*CloseUI: *NimbotDensity
+*OpenUI *NimbotLabelKind/Sticker Type: PickOne
+*DefaultNimbotLabelKind: gap
+*NimbotLabelKind gap/Gap Label: ""
+*NimbotLabelKind blackmark/Black Mark Label: ""
+*NimbotLabelKind continuous/Continuous Label: ""
+*CloseUI: *NimbotLabelKind
+*OpenUI *PageSize/Label Size: PickOne
+*DefaultPageSize: w30h15
+*PageSize w30h15/30 x 15 mm: "<</PageSize[85.04 42.52]>>setpagedevice"
+*PageSize w30h20/30 x 20 mm: "<</PageSize[85.04 56.69]>>setpagedevice"
+*PageSize w40h20/40 x 20 mm: "<</PageSize[113.39 56.69]>>setpagedevice"
+*PageSize w40h30/40 x 30 mm: "<</PageSize[113.39 85.04]>>setpagedevice"
+*PageSize w50h30/50 x 30 mm: "<</PageSize[141.73 85.04]>>setpagedevice"
+*PageSize w50h50/50 x 50 mm: "<</PageSize[141.73 141.73]>>setpagedevice"
+*PageSize w50h80/50 x 80 mm: "<</PageSize[141.73 226.77]>>setpagedevice"
+*PageSize Custom/Custom Size: "<</PageSize[85.04 42.52]>>setpagedevice"
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll] /ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width/Width: 1 points 28.35 141.73
+*ParamCustomPageSize Height/Height: 2 points 14.17 566.93
+*ParamCustomPageSize WidthOffset/Width Offset: 3 points 0 0
+*ParamCustomPageSize HeightOffset/Height Offset: 4 points 0 0
+*ParamCustomPageSize Orientation/Orientation: 5 int 0 0
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Label Size: PickOne
+*DefaultPageRegion: w30h15
+*PageRegion w30h15/30 x 15 mm: "<</PageSize[85.04 42.52]>>setpagedevice"
+*PageRegion w30h20/30 x 20 mm: "<</PageSize[85.04 56.69]>>setpagedevice"
+*PageRegion w40h20/40 x 20 mm: "<</PageSize[113.39 56.69]>>setpagedevice"
+*PageRegion w40h30/40 x 30 mm: "<</PageSize[113.39 85.04]>>setpagedevice"
+*PageRegion w50h30/50 x 30 mm: "<</PageSize[141.73 85.04]>>setpagedevice"
+*PageRegion w50h50/50 x 50 mm: "<</PageSize[141.73 141.73]>>setpagedevice"
+*PageRegion w50h80/50 x 80 mm: "<</PageSize[141.73 226.77]>>setpagedevice"
+*PageRegion Custom/Custom Size: "<</PageSize[85.04 42.52]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: w30h15
+*ImageableArea w30h15: "0 0 85.04 42.52"
+*ImageableArea w30h20: "0 0 85.04 56.69"
+*ImageableArea w40h20: "0 0 113.39 56.69"
+*ImageableArea w40h30: "0 0 113.39 85.04"
+*ImageableArea w50h30: "0 0 141.73 85.04"
+*ImageableArea w50h50: "0 0 141.73 141.73"
+*ImageableArea w50h80: "0 0 141.73 226.77"
+*ImageableArea Custom: "0 0 141.73 566.93"
+*DefaultPaperDimension: w30h15
+*PaperDimension w30h15: "85.04 42.52"
+*PaperDimension w30h20: "85.04 56.69"
+*PaperDimension w40h20: "113.39 56.69"
+*PaperDimension w40h30: "113.39 85.04"
+*PaperDimension w50h30: "141.73 85.04"
+*PaperDimension w50h50: "141.73 141.73"
+*PaperDimension w50h80: "141.73 226.77"
+*PaperDimension Custom: "141.73 566.93"
